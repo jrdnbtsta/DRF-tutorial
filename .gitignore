@@ -1,0 +1,102 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @jrdnbtsta
+ Sign out
+ Watch 4
+  Star 0
+ Fork 0 elated-io/elated-api Private
+ Code  Issues 0  Pull requests 2  Projects 0  Wiki Insights 
+Branch: master Find file Copy pathelated-api/.gitignore
+fc85cf9  on Jun 17
+@zachmccormick zachmccormick Initial commit
+1 contributor
+RawBlameHistory     
+82 lines (58 sloc)  1.1 KB
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### SublimeText ###
+# cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Basics
+*.py[cod]
+__pycache__
+
+# Logs
+logs
+*.log
+pip-log.txt
+npm-debug.log*
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+
+# Translations
+*.mo
+*.pot
+
+# Pycharm
+.idea
+
+# Provided default Pycharm Run/Debug Configurations should be tracked by git
+# In case of local modifications made by Pycharm, use update-index command
+# for each changed file, like this:
+# git update-index --assume-unchanged .idea/website.iml
+!.idea/runConfigurations/
+!.idea/website.iml
+!.idea/vcs.xml
+!.idea/webResources.xml
+
+
+# Vim
+
+*~
+*.swp
+*.swo
+
+# npm
+node_modules/
+
+# Compass
+.sass-cache
+
+# virtual environments
+.env
+
+# User-uploaded media
+website/media/
+
+
+# MailHog binary
+mailhog
+
+
+staticfiles/
+
+.cache/
+
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
